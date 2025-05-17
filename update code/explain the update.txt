@@ -1,0 +1,6 @@
+these three files for update the code (server make the mac when run and 
+the client (atacker)take from server the mac and make the new mac for the new message
+and send it to server ,the server accept it (using MD5) ,
+the server_hmac not accept that mac
+ by using  HMAC (prevent from this attack) (that make dublicate hash ).
+so the client canot expected the correct mac in server_hmac
